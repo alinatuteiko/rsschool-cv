@@ -1,4 +1,5 @@
 # Alina Tuteiko
+![My photo](./myphoto.png =20x30)
 *21 January 1996*
 
 **Location:** *Phoenixville, PA,USA*
