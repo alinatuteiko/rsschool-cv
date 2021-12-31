@@ -36,6 +36,13 @@ Bachelor of International geography investigations.
 ## Projects
  - CV: https://github.com/alinatuteiko/rsschool-cv.git
 ***
+## Code example
+    public class CustomMath {
+    public static int multiply(int a, int b) {
+        return a*b;
+    }
+}
+***
 ## PERSONAL QUALITIES
  - Fast-adaptive, flexible, open-minded and communicable
  - Responsible, good-organized, punctual
