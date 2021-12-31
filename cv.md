@@ -41,7 +41,7 @@ Bachelor of International geography investigations.
     public static int multiply(int a, int b) {
         return a*b;
     }
-}
+    }
 ***
 ## PERSONAL QUALITIES
  - Fast-adaptive, flexible, open-minded and communicable
