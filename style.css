@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth; 
+}
+body {
+  margin: 0;
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  color:#1a1719;
+  background-color: rgb(235, 213, 217);
+  
+  
+}
+* {
+    box-sizing:border-box;
+}
+
+/*Header*/
+
+.photo {
+  border-radius: 100px
+
+}
+.header {
+ padding: 5px;
+ margin: 0;
+ border:0;
+ position: absolute;
+ top:0;
+ left:0;
+ z-index: 1000px;
+ width: 100%;
+
+}
+
+
+/*Container*/
+.container-left {
+
+    width: 50%;
+    margin:0,auto;
+    padding: 30px;
+    
+} 
+
+.container-right {
+
+    width: 50%;
+    margin:0,auto;
+    padding: 30px;
+   
+}
+
+main {
+    display: flex;
+    flex-direction:row;
+    padding-top: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #1a1719;
+    line-height: 1.3;
+
+}
+    
+/*Nav*/   
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  list-style: none;
+  border-bottom: 2px solid rgb(87, 14, 75);
+  padding: 5px;
+}
+
+.nav-link {
+  margin-left: 20px;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+
+  color: rgb(139, 14, 98);
+  font-size: 15px;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity .2s linear;
+}
+.nav-link:first-child {
+margin-left: 0;
+}
+.nav-link:hover {
+opacity: 1;
+}
+
+@media (max-width: 768px) {
+.section {
+      width: 100%;
+    }
+  }
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f51082;
+  }
+
+.main-title {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3a0922;
+    text-align: left;
+}
+.link {
+    text-decoration:none;
+    color: #330d2a;
+    transition: color 0.5s;
+  }
+  
+.link:hover {
+    color: #180210;
+  }
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+
+;  
+
+  padding: 5px;
+}
+
+.end {
+  color: rgb(139, 14, 98);
+  font-size: 15px;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+
+.contacts {
+  font-style: italic;
+  line-height: .8;
+}
+
